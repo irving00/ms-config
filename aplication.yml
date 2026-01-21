@@ -3,7 +3,7 @@ spring:
     name: config-Default
 eureka:
   instance:
-    prefer-ip-address:
+    prefer-ip-address: true
   client:
     fetch-registry: true
     register-with-eureka: true
